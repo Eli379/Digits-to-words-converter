@@ -35,5 +35,5 @@ The ConvertToWords function is self explanatory it converts the decimal numbers 
 Using libraries specifically for number to word conversion would be a good option but assuming this is a tech test, it wouldn't be the best approach to show case your coding and problem-solving.
 
 #Direct String Parsing <br>
-Directly manipulating the strings could be an option to construct the words for each number. This method would be so tedious, super slow and open for error's. This won't be good for upscaling and it lacks modularity. Maintaining it would be a mess
+Directly manipulating the strings could be an option to construct the words for each number. This method would be so tedious, super slow and open for errors. This won't be good for upscaling and it lacks modularity. Maintaining it would be a mess
 
