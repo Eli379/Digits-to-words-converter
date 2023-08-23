@@ -17,13 +17,13 @@ Entering anything besides an integer or decimal will make the API return nothing
 
 ## My Approach
 
-#Input Validation \n
+#Input Validation <br>
 Created a ConversionRequest Model in order for the passed data to serialised through JSON. This approach provides a clear and standardized way of handling input validation while leveraging the built-in features of ASP.NET Core.
 
-#Separation of Conversion Logic \n
+#Separation of Conversion Logic <br>
 The core logic of converting the numbers to words is encapsulated within 3 methods: ConvertToWords, ConvertThreeDigitGroup, and ConvertTwoDigitGroup. Makes it modular and allows for future potential testing and future enhancements.
 
-#Logic \n
+#Logic <br>
 The ConvertThreeDigitGroup function is responsible for converting a three-digit group of a number (e.g., thousands, millions) into its word representation. It's utilized by the ConvertToWords function to handle the conversion of different segments of a given number.
 
 The ConvertTwoDigitGroup function is designed to convert a two-digit group of a number into its word representation. It is used by both the ConvertThreeDigitGroup and ConvertToWords functions for handling the conversion of tens and teens.
